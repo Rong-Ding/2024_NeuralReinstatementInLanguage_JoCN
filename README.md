@@ -1,8 +1,15 @@
-This is a MATLAB- and Python-based project aiming to study how the referent of a pronoun is represented in the neural sense. As an example, in a sentence _Mike is walking to Lily. He wears blue._, when you see/hear _He_, _Mike_ comes to your mind. 
-We hypothesised that oscillatory neural activity underlying processing of the referent (e.g., _Mike_) is reinstated, or (re)activated, when your brain is retrieving from memory what a pronoun (e.g., _He_) refers to. To test the hypothesis, we conducted a state-of-the-art, multivariate neural decoding technique, namely representational similarity analysis (RSA), to analyse the similarity between neurophysiological activity (recorded with MEG) underlying referent words and pronouns.
+## 💭 Reinstatement of neural activity underlying referents in pronoun understanding
+This is a MATLAB- and Python-based project aiming to study how the referent of a pronoun is represented in the neural sense. 
+
+As an example, in a sentence _Mike is walking to Lily. He wears blue._, when you see/hear _He_, _Mike_ comes to your mind. 
+We hypothesised that oscillatory neural activity underlying processing of the referent (e.g., _Mike_) is **reinstated**, or (re)activated, when your brain is retrieving from memory what a pronoun (e.g., _He_) refers to. 
+
+To test the hypothesis, we conducted a state-of-the-art, multivariate neural decoding technique, namely **representational similarity analysis (RSA)**, to analyse the similarity between neurophysiological activity (recorded with MEG) underlying referent words and pronouns.
+
+The current repository is forked from a repository first published by our lab GitHub that contained all the scripts and relevant materials. In this repository, you can find stimulus annotations and pipelines used for data analysis.
 
 ## Explanation
-The current repository is forked from a repository first published by our lab GitHub that contained all the scripts and relevant materials. In this repository, you can find stimulus annotations and pipelines used for data analysis. The folder **Analysis** contains scripts to perform preprocessing, RSA, and permutation statistics. In the folder **Stimulus annotations**, there are part-of-speech annotations used to perform the POS analysis as an appendix. Below is an overview of each folder:
+The folder **Analysis** contains scripts to perform preprocessing, RSA, and permutation statistics. In the folder **Stimulus annotations**, there are part-of-speech annotations used to perform the POS analysis as an appendix. Below is an overview of each folder:
 
 ### Analysis:
 Several subfolders are present, each devoted to presenting scripts of particular use (e.g., MEG data preprocessing, RSA, permutation stats). Importantly, to see a demo of RSA and stats analysis, you can check out the following scripts:
