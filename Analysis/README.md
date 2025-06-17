@@ -1,4 +1,4 @@
-## Analysis:
+## Analysis
 Several subfolders are present, each devoted to presenting scripts of particular use (e.g., MEG data preprocessing, RSA, permutation stats). Importantly, to see a demo of RSA and stats analysis, you can check out the following scripts:
 
 <b>TF_phase_RSA_allfreq.m (in the folder RSA):</b>\
