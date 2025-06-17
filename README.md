@@ -1,5 +1,5 @@
 ## 💭 Reinstatement of neural activity underlying referents in pronoun understanding
-This is a MATLAB- and Python-based project aiming to study how the referent of a pronoun is represented in the neural sense. 
+This is a MATLAB-based project aiming to study how the referent of a pronoun is represented in the neural sense. 
 
 As an example, in a sentence _Mike is walking to Lily. He wears blue._, when you see/hear _He_, _Mike_ comes to your mind. 
 We hypothesised that oscillatory neural activity underlying processing of the referent (e.g., _Mike_) is **reinstated**, or (re)activated, when your brain is retrieving from memory what a pronoun (e.g., _He_) refers to. 
